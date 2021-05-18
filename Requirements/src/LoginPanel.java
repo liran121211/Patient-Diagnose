@@ -95,7 +95,6 @@ public class LoginPanel extends JPanel implements ActionListener, DocumentListen
                 textValidator(userField);
             if (!VALID_PASSWORD.matcher(password).matches())
                 textValidator(passwordField);
-
         }
         if ((username.trim().equals("tamaram") && password.trim().equals("password@7") && id.trim().equals("209153501")) || (username.trim().equals("liransm") && password.trim().equals("password@6") && id.trim().equals("311370092")))
             authorized = true;
